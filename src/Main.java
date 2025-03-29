@@ -7,8 +7,17 @@ public class Main {
         Scanner leitor = new Scanner(System.in);
 
         Tenis tenis = new Tenis();
+        //Colocar o objeto marca dentro do tênis
+        Marca marca = new Marca();
 
         //Criar um objeto tenis com os valores digitados pelo usuário
+
+        System.out.println("Digite o nome da marca: ");
+        marca.nome = leitor.next();
+
+        System.out.println("Digite a logo do tênis: ");
+        marca.logo = leitor.next();
+
 
         System.out.println("Digite a cor do tênis: ");
         tenis.cor = leitor.next() + leitor.nextLine();
@@ -25,10 +34,14 @@ public class Main {
         System.out.println("Esse tênis está disponivel: ");
         tenis.disponivel = leitor.nextBoolean();
 
-        System.out.println("Cor: " + tenis.cor + "\nModelo: " + tenis.modelo + "\nTamanho: " + tenis.tamanho + "\nPreço: " + tenis.preco + "\nDisponível: " + tenis.disponivel);
+        System.out.println("Marca: " + marca.nome + "\nLogo: " + marca.logo + "\nCor: " + tenis.cor + "\nModelo: " + tenis.modelo + "\nTamanho: " + tenis.tamanho + "\nPreço: " + tenis.preco + "\nDisponível: " + tenis.disponivel);
 
-        //Exibir os valores que estão dentro do objeto
+        //Chamar/invocar o método para aumentar o valor do tenis
 
+        tenis.aumentarPreco(10);
+
+        //Exibir os valores no Scanner
+        System.out.println("Valor atualizado: " + tenis.preco);
 
     }
 }
