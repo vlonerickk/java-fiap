@@ -43,5 +43,10 @@ public class Main {
         //Exibir os valores no Scanner
         System.out.println("Valor atualizado: " + tenis.preco);
 
+        //Chamar o método para calcularo o preço com desconto
+
+        double valorDesconto = tenis.aplicarDesconto(10);
+        System.out.println("Tênis com desconto: " + valorDesconto);
+
     }
 }
