@@ -1,3 +1,5 @@
+package Aula02;
+
 import java.util.Scanner;
 
 public class Main {
@@ -34,7 +36,7 @@ public class Main {
         System.out.println("Esse tênis está disponivel: ");
         tenis.disponivel = leitor.nextBoolean();
 
-        System.out.println("Marca: " + marca.nome + "\nLogo: " + marca.logo + "\nCor: " + tenis.cor + "\nModelo: " + tenis.modelo + "\nTamanho: " + tenis.tamanho + "\nPreço: " + tenis.preco + "\nDisponível: " + tenis.disponivel);
+        System.out.println("Aula02.Marca: " + marca.nome + "\nLogo: " + marca.logo + "\nCor: " + tenis.cor + "\nModelo: " + tenis.modelo + "\nTamanho: " + tenis.tamanho + "\nPreço: " + tenis.preco + "\nDisponível: " + tenis.disponivel);
 
         //Chamar/invocar o método para aumentar o valor do tenis
 

@@ -1,3 +1,5 @@
+package Aula02;
+
 public class Aluno {
     String nomeDoAluno;
     String turmaDoAluno;

@@ -1,3 +1,5 @@
+package Aula02;
+
 import java.util.Scanner;
 
 public class mediaAluno {
@@ -24,7 +26,7 @@ public class mediaAluno {
 
         aluno1.mediaFinal = (aluno1.nota1 +  aluno1.nota2 + aluno1.nota3) /3;
 
-        System.out.println("Nome do Aluno: " + nomeDoAluno + "\nTurma do aluno: " + turmaDoAluno +"\nnota 1: " + aluno1.nota1 + "\nNota 2: " + aluno1.nota2 + "\nNota 3: " + aluno1.nota3 + "\nMédia Final: " + aluno1.mediaFinal);
+        System.out.println("Nome do Aula02.Aluno: " + nomeDoAluno + "\nTurma do aluno: " + turmaDoAluno +"\nnota 1: " + aluno1.nota1 + "\nNota 2: " + aluno1.nota2 + "\nNota 3: " + aluno1.nota3 + "\nMédia Final: " + aluno1.mediaFinal);
 
     }
 }

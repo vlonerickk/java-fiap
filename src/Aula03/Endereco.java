@@ -1,3 +1,5 @@
+package Aula03;
+
 public class Endereco {
     String logradouro;
     short numero;
